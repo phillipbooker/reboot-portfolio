@@ -21,21 +21,21 @@
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Phillip Booker</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#featured">Featured Projects <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#homework">Homework</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
 
                         <!-- Description -->
                         <h4 class="white-text my-4">Full Stack Developer (In Training)</h4>
-                        <button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button>
+                        <a href=#bio><button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button></a>
                     </div>
                     
                 </div>
@@ -65,7 +65,7 @@
     <main class="mt-5">
         <div class="container">
             <section id="bio" class="text-center">
-                <h1 class="mb-5 font-weight-bold text-center">About Me</h1>
+                <h1 class="my-5 font-weight-bold text-center">About Me</h1>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 mb-5">
                         <img src="assets/images/profile-pic.jpg" class="img-fluid">
@@ -96,14 +96,29 @@
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                <img class="d-block w-100" src="assets/images/clouds.jpg" alt="First slide">
+                                <div class="carousel-feature carousel-item active">
+                                    <img class="d-block h-100 m-auto" src="assets/images/trivia.JPG" alt="First slide">
+                                    <div class="carousel-caption">
+                                        <h5>Trivia Game</h5>
+                                        <p class="mb-0"><a href="https://phillipbooker.github.io/TriviaGame/">Deployed Project</a></p>
+                                        <p class="mb-0"><a href="https://github.com/phillipbooker/TriviaGame">Github Repository</a></p>
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/clouds.jpg" alt="Second slide">
+                                <div class="carousel-feature carousel-item">
+                                    <img class="d-block h-100 m-auto" src="assets/images/rpg.JPG" alt="Second slide">
+                                    <div class="carousel-caption">
+                                        <h5>RPG Game</h5>
+                                        <p class="mb-0"><a href="https://phillipbooker.github.io/unit-4-game/">Deployed Project</a></p>
+                                        <p class="mb-0"><a href="https://github.com/phillipbooker/unit-4-game/">Github Repository</a></p>
+                                    </div>
                                 </div>
-                                <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/images/clouds.jpg" alt="Third slide">
+                                <div class="carousel-feature carousel-item">
+                                    <img class="d-block h-100 m-auto" src="assets/images/hero.JPG" alt="Third slide">
+                                    <div class="carousel-caption">
+                                        <h5>Hero Game</h5>
+                                        <p class="mb-0"><a href="https://phillipbooker.github.io/group-project-1/">Deployed Project</a></p>
+                                        <p class="mb-0"><a href="https://github.com/phillipbooker/group-project-1">Github Repository</a></p>
+                                    </div>
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -240,19 +255,19 @@
                     <div class="col-md-6 col-lg-7 text-center">
                         <!--Facebook-->
                         <a class="fb-ic ml-0 social-link" href="https://github.com/phillipbooker">
-                            <i class="fab fa-github mx-4"> </i>
+                            <i class="fab fa-github mx-4" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Github"> </i>
                         </a>
                         <!--Linkedin-->
                         <a class="li-ic social-link" href="https://linkedin.com/in/phillippbooker">
-                            <i class="fab fa-linkedin-in white-text mx-4"> </i>
+                            <i class="fab fa-linkedin-in white-text mx-4" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="LinkedIn"> </i>
                         </a>
                         <!--Resume-->
                         <a class="tw-ic social-link" href="https://drive.google.com/file/d/1eRiyIFE84TKtSqfyRHCEXD8KNmLujaCN/view?usp=sharing">
-                            <i class="far fa-file white-text mx-4"> </i>
+                            <i class="far fa-file white-text mx-4" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Resume"> </i>
                         </a>
                         <!--Email-->
                         <a class="gplus-ic social-link" href="mailto:phillippbooker@gmail.com">
-                            <i class="fas fa-envelope white-text mx-4"> </i>
+                            <i class="fas fa-envelope white-text mx-4" data-placement="top" data-toggle="popover" data-trigger="hover" data-content="Email"> </i>
                         </a>
                     </div>
                     <!--Grid column-->
@@ -261,48 +276,7 @@
             </section>
 
             <footer class="page-footer font-small unique-color-dark">
-                <!-- Social buttons -->
-                <div class="secondary-color">
-                    <div class="container">
-                        <!--Grid row-->
-                        <div class="row py-4 d-flex align-items-center">
-        
-                            <!--Grid column-->
-                            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-                                <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
-                            </div>
-                            <!--Grid column-->
-        
-                            <!--Grid column-->
-                            <div class="col-md-6 col-lg-7 text-center text-md-right">
-                                <!--Facebook-->
-                                <a class="fb-ic ml-0 social-link" href="https://github.com/phillipbooker">
-                                    <i class="fab fa-github mr-4"> </i>
-                                </a>
-                                <!--Linkedin-->
-                                <a class="li-ic social-link" href="https://linkedin.com/in/phillippbooker">
-                                    <i class="fab fa-linkedin-in white-text mr-4"> </i>
-                                </a>
-                                <!--Resume-->
-                                <a class="tw-ic social-link" href="https://drive.google.com/file/d/1eRiyIFE84TKtSqfyRHCEXD8KNmLujaCN/view?usp=sharing">
-                                    <i class="far fa-file white-text mr-4"> </i>
-                                </a>
-                                <!--Email-->
-                                <a class="gplus-ic social-link" href="mailto:phillippbooker@gmail.com">
-                                    <i class="fas fa-envelope white-text mr-4"> </i>
-                                </a>
-                            </div>
-                            <!--Grid column-->
-        
-                        </div>
-                        <!--Grid row-->
-                    </div>
-                </div>
-                <!-- Social buttons -->
-        
-        
                 
-        
                 <!-- Copyright -->
                 <div class="footer-copyright text-center py-3">© 2019 Copyright:
                 </div>
@@ -314,5 +288,17 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="popover"]').popover(); 
+        });
+
+        // Hide and Show Pages
+        // $(".nav-item").click(function(){
+        //     $(".nav-item").removeClass('active');
+        //     $(this).addClass('active');
+        // });
+
+    </script>
 </body>
 </html>
