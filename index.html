@@ -21,7 +21,7 @@
     <header>
         <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#">Phillip Booker</a>
+            <a class="navbar-brand scroll-link" href="#intro">Phillip Booker</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -29,13 +29,13 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#featured">Featured Projects <span class="sr-only">(current)</span></a>
+                    <a class="nav-link scroll-link" href="#featured">Featured Projects <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#homework">Homework</a>
+                    <a class="nav-link scroll-link" href="#homework">Homework</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link scroll-link" href="#contact">Contact</a>
                 </li>
                 </ul>
             </div>
@@ -54,7 +54,7 @@
 
                         <!-- Description -->
                         <h4 class="white-text my-4">Full Stack Developer (In Training)</h4>
-                        <a href=#bio><button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button></a>
+                        <a href=#bio class="scroll-link"><button type="button" class="btn btn-outline-white">Read more<i class="fas fa-book ml-2"></i></button></a>
                     </div>
                     
                 </div>
@@ -65,7 +65,8 @@
     <main class="mt-5">
         <div class="container">
             <section id="bio" class="text-center">
-                <h1 class="my-5 font-weight-bold text-center">About Me</h1>
+                <hr class="my-5">
+                <h1 class="py-5 font-weight-bold text-center">About Me</h1>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 mb-5">
                         <img src="assets/images/profile-pic.jpg" class="img-fluid">
@@ -80,44 +81,44 @@
                 </div>
             </section>
 
-            <hr class="my-5">
-
+            
             <section id="featured">
-                <h1 class="mb-5 font-weight-bold text-center">Featured Projects</h1>
+                <hr class="my-5">
+                <h1 class="py-5 mb-5 font-weight-bold text-center">Featured Projects</h1>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-3 mb-5">
                         <p>Here are a few of my recently deployed projects.</p>
                     </div>
                     <div class="col-md-7 mb-5">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
+                            <ol class="mb-1 carousel-indicators">
                                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="carousel-feature carousel-item active">
-                                    <img class="d-block h-100 m-auto" src="assets/images/trivia.JPG" alt="First slide">
-                                    <div class="carousel-caption">
-                                        <h5>Trivia Game</h5>
-                                        <p class="mb-0"><a href="https://phillipbooker.github.io/TriviaGame/">Deployed Project</a></p>
-                                        <p class="mb-0"><a href="https://github.com/phillipbooker/TriviaGame">Github Repository</a></p>
+                                <div id="feature-proj-1" class="carousel-feature carousel-item active">
+                                    <!-- <img class="d-block h-100 m-auto" src="assets/images/trivia.JPG" alt="First slide"> -->
+                                    <div class="py-1 carousel-caption">
+                                        <h5>DRES</h5>
+                                        <p class="mb-0"><a class="caption-link" href="https://dresfit.herokuapp.com/">Deployed Project</a></p>
+                                        <p class="mb-0"><a class="caption-link" href="https://github.com/phillipbooker/group-project-2">Github Repository</a></p>
                                     </div>
                                 </div>
-                                <div class="carousel-feature carousel-item">
-                                    <img class="d-block h-100 m-auto" src="assets/images/rpg.JPG" alt="Second slide">
-                                    <div class="carousel-caption">
-                                        <h5>RPG Game</h5>
-                                        <p class="mb-0"><a href="https://phillipbooker.github.io/unit-4-game/">Deployed Project</a></p>
-                                        <p class="mb-0"><a href="https://github.com/phillipbooker/unit-4-game/">Github Repository</a></p>
+                                <div id="feature-proj-2" class="carousel-feature carousel-item">
+                                    <!-- <img class="d-block h-100 m-auto" src="assets/images/rpg.JPG" alt="Second slide"> -->
+                                    <div class="py-1 carousel-caption">
+                                        <h5>DBZ Trivia</h5>
+                                        <p class="mb-0"><a class="caption-link" href="https://phillipbooker.github.io/TriviaGame/">Deployed Project</a></p>
+                                        <p class="mb-0"><a class="caption-link" href="https://github.com/phillipbooker/TriviaGame/">Github Repository</a></p>
                                     </div>
                                 </div>
-                                <div class="carousel-feature carousel-item">
-                                    <img class="d-block h-100 m-auto" src="assets/images/hero.JPG" alt="Third slide">
-                                    <div class="carousel-caption">
+                                <div id="feature-proj-3" class="carousel-feature carousel-item">
+                                    <!-- <img class="d-block h-100 m-auto" src="assets/images/hero.JPG" alt="Third slide"> -->
+                                    <div class="py-1 carousel-caption">
                                         <h5>Hero Game</h5>
-                                        <p class="mb-0"><a href="https://phillipbooker.github.io/group-project-1/">Deployed Project</a></p>
-                                        <p class="mb-0"><a href="https://github.com/phillipbooker/group-project-1">Github Repository</a></p>
+                                        <p class="mb-0"><a class="caption-link" href="https://phillipbooker.github.io/group-project-1/">Deployed Project</a></p>
+                                        <p class="mb-0"><a class="caption-link" href="https://github.com/phillipbooker/group-project-1">Github Repository</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -134,10 +135,10 @@
                 </div>
             </section>
 
-            <hr class="my-5">
-
+            
             <section id="homework">
-                <h1 class="mb-5 font-weight-bold text-center">Homework Assignments</h1>
+                <hr class="my-5">
+                <h1 class="py-5 mb-5 font-weight-bold text-center">Homework Assignments</h1>
                 <div class="row">
                     <div class="col-md-4 mb-5">
                         <div class="card text-center">
@@ -296,10 +297,10 @@
                 </div>
             </section>
 
-            <hr class="my-5">
-
+            
             <section id="contact">
-                <h1 class="mb-5 font-weight-bold text-center">Contact</h1>
+                <hr class="my-5">
+                <h1 class="py-5 mb-5 font-weight-bold text-center">Contact</h1>
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-6 text-center">
                         <p>Use the links below to contact me!</p>
@@ -334,14 +335,13 @@
             <footer class="page-footer font-small unique-color-dark">
                 
                 <!-- Copyright -->
-                <div class="footer-copyright text-center py-3">© 2019 Copyright:
-                </div>
+                <div class="footer-copyright text-center py-3">© 2019 Copyright</div>
                 <!-- Copyright -->
             </footer>
 
         </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
@@ -349,11 +349,28 @@
           $('[data-toggle="popover"]').popover(); 
         });
 
-        // Hide and Show Pages
-        // $(".nav-item").click(function(){
-        //     $(".nav-item").removeClass('active');
-        //     $(this).addClass('active');
-        // });
+        $("a[href^='#'].scroll-link").on("click", function(e) {
+            // prevent default anchor click behavior
+            e.preventDefault();
+
+            console.log(e);
+
+            // store hash
+            var hash = this.hash;
+
+            // animate
+            $("html, body").animate(
+                {
+                    scrollTop: $(hash).offset().top
+                },
+                1000,
+                function() {
+                    // when done, add hash to url
+                    // (default click behaviour)
+                    window.location.hash = hash;
+                }
+            );
+        });
 
     </script>
 </body>

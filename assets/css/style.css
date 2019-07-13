@@ -30,3 +30,33 @@ header,
     height: 300px;
     background: black;
 }
+
+#feature-proj-1{
+    background: url('../images/dres.JPG') no-repeat center;
+    background-size: 100%;
+}
+
+#feature-proj-2{
+    background: url('../images/trivia.JPG') no-repeat center;
+    background-size: 100%;
+}
+
+#feature-proj-3{
+    background: url('../images/hero.JPG') no-repeat center;
+    background-size: 100%;
+}
+
+.carousel-caption{
+    border: solid 0.75px rgb(128, 128, 128);
+    border-radius: 10px;
+    background-color: rgba(111, 111, 202, 0.8);
+    color: white;
+}
+
+.caption-link{
+    color: rgb(192, 192, 192);
+}
+
+.caption-link:hover{
+    color: white;
+}
